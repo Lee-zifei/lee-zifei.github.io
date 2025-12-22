@@ -1,4 +1,24 @@
-# 👋 Hi there, I'm Zifei Li (李子霏) <img src="isaac1.gif" height="38px">
+
+<div style="font-family: 'Permanent Marker', cursive; color: #4b3832; line-height: 1.2; text-transform: uppercase; position: relative; padding-bottom: 40px;">
+  
+  <span style="font-size: 24px;">
+    Hello stranger! I'm Isaac, and this is my good friend 
+    <span style="border-bottom: 2px dashed #8b0000; padding: 0 4px;">Li Zifei (李子霏)</span>'s 
+    GitHub introduction.
+  </span>
+
+  <div style="position: absolute; left: 380px; top: 35px; display: flex; flex-direction: column; align-items: center;">
+    <svg width="40" height="30" viewBox="0 0 40 30" style="transform: rotate(-10deg);">
+      <path d="M5 25 Q 15 5 35 10" stroke="#8b0000" stroke-width="2" fill="transparent" />
+      <path d="M30 5 L35 10 L28 15" stroke="#8b0000" stroke-width="2" fill="transparent" />
+    </svg>
+    <span style="font-size: 20px; color: #8b0000; white-space: nowrap; transform: rotate(5deg); font-weight: bold;">
+      (大笨蛋！！！)
+    </span>
+  </div>
+</div> <img src="isaac1.gif" height="38px">
+
+
 <table>
   <tr>
     <td width="65%">
