@@ -14,18 +14,17 @@
             margin: 0 auto;
             padding: 45px;
         }
-        /* 强制方形头像样式 */
-        .markdown-body img { 
-            border-radius: 0 !important; 
-            border: 1px solid #d0d7de; /* 增加细微边框，更有质感 */
-        }
+        /* 强制标题内的 GIF 对齐 */
+        .markdown-body h1 img { vertical-align: middle; margin-left: 10px; }
+        /* 确保照片为方形 */
+        .markdown-body img { border-radius: 0 !important; }
         @media (max-width: 767px) { .markdown-body { padding: 15px; } }
         body { background-color: #f6f8fa; }
     </style>
 </head>
 <body>
     <article id="content" class="markdown-body">
-        <i class="bi bi-arrow-repeat"></i> Loading profile...
+        Loading profile...
     </article>
 
     <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/marked/4.0.2/marked.min.js"></script>
@@ -33,32 +32,26 @@
     <script id="MathJax-script" async src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
 
     <script>
-        // 获取 Markdown 内容并渲染
+        // 读取本地的 home.md 文件
         fetch('home.md')
             .then(response => {
-                if (!response.ok) throw new Error('Network response was not ok');
+                if (!response.ok) throw new Error('File not found: ' + response.status);
                 return response.text();
             })
             .then(text => {
-                // 渲染 Markdown 到页面
-                document.getElementById('content').innerHTML = marked.parse(text);
-                
-                // 渲染后处理：手动修复图片加载并触发数学公式渲染
-                const images = document.querySelectorAll('img');
-                images.forEach(img => {
-                    // 如果路径中包含 photo.png，确保它是方形
-                    if(img.src.includes('photo.png')) {
-                        img.style.borderRadius = "0";
+                // 确保 marked 已成功加载
+                if (typeof marked !== 'undefined') {
+                    document.getElementById('content').innerHTML = marked.parse(text);
+                    if (window.MathJax) {
+                        MathJax.typesetPromise();
                     }
-                });
-
-                if (window.MathJax) {
-                    MathJax.typesetPromise();
+                } else {
+                    throw new Error('Marked library not loaded');
                 }
             })
             .catch(err => {
                 console.error(err);
-                document.getElementById('content').innerHTML = "Error loading content. Please check if home.md exists.";
+                document.getElementById('content').innerHTML = "Error loading content: " + err.message;
             });
     </script>
 </body>
