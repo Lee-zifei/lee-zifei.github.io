@@ -14,7 +14,7 @@
       </p>
     </td>
     <td width="35%" align="center">
-      <img src="fig/photo.png" width="180" style="border-radius: 50%; border: 3px solid #f1c40f;" />
+      <img src="photo.png" width="180" style="border-radius: 50%; border: 3px solid #f1c40f;" />
     </td>
   </tr>
 </table>
