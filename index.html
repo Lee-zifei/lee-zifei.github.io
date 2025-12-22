@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Zifei Lee | CDUT Geophysics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/github-markdown-css/5.1.0/github-markdown.min.css">
-    <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap-icons/1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <style>
         .markdown-body {
             box-sizing: border-box;
@@ -14,10 +14,6 @@
             margin: 0 auto;
             padding: 45px;
         }
-        /* 强制标题内的 GIF 对齐 */
-        .markdown-body h1 img { vertical-align: middle; margin-left: 10px; }
-        /* 确保照片为方形 */
-        .markdown-body img { border-radius: 0 !important; }
         @media (max-width: 767px) { .markdown-body { padding: 15px; } }
         body { background-color: #f6f8fa; }
     </style>
@@ -27,31 +23,23 @@
         Loading profile...
     </article>
 
-    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/marked/4.0.2/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/polyfill/7.12.1/polyfill.min.js"></script>
-    <script id="MathJax-script" async src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <script>
         // 读取本地的 home.md 文件
         fetch('home.md')
-            .then(response => {
-                if (!response.ok) throw new Error('File not found: ' + response.status);
-                return response.text();
-            })
+            .then(response => response.text())
             .then(text => {
-                // 确保 marked 已成功加载
-                if (typeof marked !== 'undefined') {
-                    document.getElementById('content').innerHTML = marked.parse(text);
-                    if (window.MathJax) {
-                        MathJax.typesetPromise();
-                    }
-                } else {
-                    throw new Error('Marked library not loaded');
+                document.getElementById('content').innerHTML = marked.parse(text);
+                // 渲染后通知 MathJax 处理公式
+                if (window.MathJax) {
+                    MathJax.typeset();
                 }
             })
             .catch(err => {
-                console.error(err);
-                document.getElementById('content').innerHTML = "Error loading content: " + err.message;
+                document.getElementById('content').innerHTML = "Error loading content.";
             });
     </script>
 </body>
