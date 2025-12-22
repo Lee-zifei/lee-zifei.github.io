@@ -1,5 +1,7 @@
 # 👋 Hi there, I'm Zifei Li (李子霏)
-
+<p align="center">
+  <img src="./fig/photo.png" width="400" style="border-radius: 50%;" />
+</p>
 <p align="left">
   <a href="https://github.com/Lee-zifei/">
     <img src="https://img.shields.io/badge/PhD%20Candidate-CDUT-gold?style=flat-square&logo=academia" />
@@ -45,7 +47,7 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
 #### 📄 Key Publications
 - **[J]** *Seismic random noise attenuation using structure-oriented 3D curvelet transform.*
 - **[J]** *Iterative deblending based on 2D-FFT with multistage median bilateral filtering.*
-- **[C]** *Self-supervised Training for Simultaneous Interpolation and Deblending of Blended Data.* (Presented at **IMAGE**)
+- **[C]** *Self-supervised Training for Simultaneous Interpolation and Deblending of Blended Data.* 
 
 #### 🌐 Conferences
 * **IMAGE** (International Meeting for Applied Geosciences & Energy)
@@ -59,7 +61,8 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=for-the-badge&logo=mathworks&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <!-- <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> -->
+  
 </p>
 
 ---
