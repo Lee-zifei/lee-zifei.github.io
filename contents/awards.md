@@ -1,3 +1,4 @@
-- 校级一等奖学金, 2022.  
-
-- Outstanding Graduation Thesis, XXX University, 2023. 
+**Outstanding Student**
+**Specialized Competition Scholarship**
+**Ph.D. Motivational Scholarship (Special Class)**
+**Ph.D. Academic Scholarship (First Class)**

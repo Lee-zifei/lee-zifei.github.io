@@ -1,4 +1,4 @@
-### **Competitions & Awards**  
+### **Competitions**  
 **$1^{st}$ Dongfang Cup Geophysical Software Development Contest**  
 Fault Prediction Algorithm
 National $1^{st}$ Prize
@@ -11,10 +11,6 @@ National $2^{nd}$ Prize
 Surface Wave Noise Suppression
 National $1^{st}$ Prize
 
-**Outstanding Student**
-**Specialized Competition Scholarship**
-**Ph.D. Motivational Scholarship (Special Class)**
-**Ph.D. Academic Scholarship (First Class)**
 
 ### Conferences:
 - China Union of Geological Sciences Annual Conference(CGU)
