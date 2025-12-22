@@ -12,20 +12,27 @@
 <style>
     /* 1. 浅色 Wiki 背景 - 干净的浅灰色 */
     body { 
-        /* 1. 设置浅灰色底色 */
-        background-color: #f4f4f4; 
-        
-        /* 2. 纯代码生成的石砖纹理 (SVG) */
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23d0d0d0' stroke-width='1'%3E%3Cpath d='M0 0h80v80H0z'/%3E%3Cpath d='M0 40h80M40 0v80M20 0v40M60 40v40M0 20h40M40 60h40'/%3E%3C/g%3E%3C/svg%3E");
-        
-        /* 3. 平铺与固定 */
-        background-repeat: repeat;
-        background-attachment: fixed;
-        
-        margin: 0;
-        padding: 0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
+            margin: 0;
+            padding: 0;
+            background-color: #f6f6f6; /* 如果图片没加载出来的保底色 */
+            
+            /* 核心设置：引入你的 bg.png */
+            background-image: url('bg.png'); 
+            
+            /* 让图片在屏幕中心对齐 */
+            background-position: center top; 
+            
+            /* 关键：不平铺，保持原图比例 */
+            background-repeat: no-repeat; 
+            
+            /* 让背景固定，不随滚动条移动，更有质感 */
+            background-attachment: fixed; 
+            
+            /* 让图片覆盖整个屏幕宽度（或者根据你的原图调整） */
+            background-size: cover; 
+            
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
 
     /* 2. 内容主容器 - 纯白背景，带浅色边框 */
     .markdown-body {
