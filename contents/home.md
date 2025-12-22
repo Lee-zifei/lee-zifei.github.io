@@ -1,20 +1,17 @@
 [![XX](https://img.shields.io/badge/XX-github-blue?logo=github)](https://github.com/XX)
 
-I'm currently pursuing a Master's degree in XX at the Department of XX, XX University, XX.
+I'm currently pursuing a PhD's degree in Chengdu University of Technology at the Department of Geophysics. Main research interests include Simultaneous-source seismic acquistion techniques and high-quality seismic imaging. 
 
 #### Email  
-<code>XX@XX.XX</code>  
-<code>XX@XX.XX</code>
+<code>2024010196@stu.cdut.edu.cn</code>  
+<code>Curvelet_lzf@163.com</code>
 
 #### Education  
-**XX University**, Master of XX (XX – XX)  
-• GPA: XX/XX  
+**Chengdu University of Technology**, Sep. 2024 – Present  
+• Ph.D. in Engineering (Candidate)
 
-**XX University**, Exchange student <br>  
-• As a XX, represented my college as an outstanding student for a XX exchange program.  
-
-**XX University**, Honours Bachelor of XX (XX – XX)  
-• GPA: XX/XX (top XX%)  
+**Chengdu University of Technology**, Sep. 2020 – Jun. 2024  
+• B.Sc. in Science
 
 #### Research Interests  
-XX, XX, XX, XX.
+Simultaneous-source seismic acquistion, High-quality seismic imaging.
