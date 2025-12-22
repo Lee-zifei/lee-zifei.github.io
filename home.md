@@ -1,13 +1,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
-<div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 2.5;">
+<div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 2.8;">
   <span style="font-size: 24px; color: #4b3832;">
     👋 Hello everyone! I'm Isaac, and this is my good friend 
     <span style="display: inline-block; vertical-align: middle; position: relative;">
-        <span style="border-bottom: 2px dashed #8b0000; padding: 0 4px;">Li Zifei (李子霏)</span>
-        <svg width="200" height="60" style="position: absolute; left: 50%; top: 25px; transform: translateX(-50%); pointer-events: none;">
-            <path d="M100 40 L100 10 M95 18 L100 10 L105 18" stroke="#8b0000" stroke-width="3" fill="transparent" />
-            <text x="100" y="55" text-anchor="middle" font-family="'Permanent Marker', cursive" font-size="14" fill="#8b0000" font-weight="bold" transform="rotate(-2, 100, 55)">
+        <span style="border-bottom: 3px dashed #8b0000; padding: 0 4px;">Li Zifei (李子霏)</span>
+        <svg width="200" height="70" style="position: absolute; left: 50%; top: 28px; transform: translateX(-50%); pointer-events: none;">
+            <g fill="none" stroke="#8b0000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M101 45 C 98 35, 102 20, 100 8" />
+                <path d="M92 18 C 94 15, 97 10, 100 8" />
+                <path d="M108 17 C 105 14, 102 11, 100 8" />
+            </g>
+            <text x="100" y="62" text-anchor="middle" font-family="'Permanent Marker', cursive" font-size="14" fill="#8b0000" font-weight="bold" transform="rotate(-2, 100, 62)">
                 (FOOLISH!!!!!!!)
             </text>
         </svg>
@@ -41,10 +45,10 @@
 
   <tr>
     <td colspan="2" align="center" style="padding-top: 20px;">
-      <img src="cp5_csgy.png" height="115px" style="margin-right: 10px;" />
-      <img src="cp5_csgde721.png" height="115px" style="margin-right: 10px;" />
-      <img src="cp5_csgde719.png" height="115px" style="margin-right: 10px;" />
-      <img src="cp5_csgdefx6.png" height="115px" style="margin-right: 10px;" />
+      <img src="cp5_csgy.png" height="200px" style="margin-right: 1px;" />
+      <img src="cp5_csgde721.png" height="200px" style="margin-right: 1px;" />
+      <img src="cp5_csgde719.png" height="200px" style="margin-right: 1px;" />
+      <img src="cp5_csgdefx6.png" height="200px" style="margin-right: 1px;" />
     </td>
   </tr>
 </table>
