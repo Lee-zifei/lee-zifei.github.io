@@ -1,22 +1,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
-<div style="position: relative; padding-bottom: 20px; font-family: 'Permanent Marker', cursive; text-transform: uppercase;">
+<div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 1.5;">
   
   <span style="font-size: 24px; color: #4b3832;">
     👋 Hello stranger! I'm Isaac, and this is my good friend 
-    <span style="border-bottom: 2px dashed #8b0000; padding: 0 4px;">Li Zifei (李子霏)</span>'s 
-    GitHub introduction.
+    <span style="position: relative; display: inline-block;">
+      <span style="border-bottom: 2px dashed #8b0000; padding: 0 4px;">Li Zifei (李子霏)</span>
+      <div style="position: absolute; left: 50%; transform: translateX(-50%); top: 35px; display: flex; flex-direction: column; align-items: center; width: 120px;">
+        <svg width="30" height="25" viewBox="0 0 40 30">
+          <path d="M20 5 L20 25 M15 20 L20 25 L25 20" stroke="#8b0000" stroke-width="3" fill="transparent" />
+        </svg>
+        <span style="font-size: 14px; color: #8b0000; white-space: nowrap; transform: rotate(-3deg); font-weight: bold; background-color: rgba(255,255,255,0.6); padding: 0 2px;">
+          (foolish!!!!!!!)
+        </span>
+      </div>
+    </span>
+    's GitHub introduction.
   </span>
 
-  <div style="position: absolute; left: 420px; top: 30px; display: flex; flex-direction: column; align-items: center; z-index: 10;">
-    <svg width="40" height="30" viewBox="0 0 40 30" style="transform: rotate(-10deg);">
-      <path d="M5 25 Q 15 5 35 10" stroke="#8b0000" stroke-width="2" fill="transparent" />
-      <path d="M30 5 L35 10 L28 15" stroke="#8b0000" stroke-width="2" fill="transparent" />
-    </svg>
-    <span style="font-family: 'Permanent Marker', cursive; font-size: 16px; color: #8b0000; white-space: nowrap; transform: rotate(5deg); font-weight: bold;">
-      (foolish!!!)
-    </span>
-  </div>
 </div> <img src="isaac1.gif" height="38px">
 
 
