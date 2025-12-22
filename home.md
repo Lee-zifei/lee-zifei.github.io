@@ -1,89 +1,132 @@
-# 👋 Hi there, I'm Zifei Li (李子霏) <img src="isaac1.gif" height="38px">
-<table>
-  <tr>
-    <td width="65%">
-      <p><b>PhD Candidate @ CDUT | Department of Geophysics</b></p>
-      <p>Focusing on Simultaneous-source seismic acquisition and high-quality seismic imaging.</p>
-      <p>
-        <a href="mailto:2024010196@stu.cdut.edu.cn">
-          <img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=flat-square&logo=gmail" />
-        </a>
-        <a href="https://github.com/Lee-zifei/">
-          <img src="https://img.shields.io/github/stars/Lee-zifei?style=flat-square&color=yellow" />
-        </a>
-      </p>
-    </td>
-    <td width="35%" align="center">
-      <img src="photo1.png" width="200" />
-    </td>
-  </tr>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zifei Lee | CDUT Geophysics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <style>
+        /* 1. 全局 Wiki 背景 (wiki.gg 风格) */
+        body { 
+            background-color: #0f0f0f; 
+            background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), 
+                              url('https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Site-background-light/revision/latest');
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
 
----
+        /* 2. 内容主容器 */
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 45px;
+            background-color: #1c1c1c; /* 维基灰色容器 */
+            border: 1px solid #3a3a3a;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            color: #f0f0f0 !important;
+        }
 
-### 🧬 About Me   <img src="dake1.gif" height="38px">
-I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of Technology (CDUT)**. My research bridges the gap between signal processing and Earth sciences, focusing on making seismic data clearer and acquisition more efficient.
+        /* 3. 标题与横线 (wiki.gg 蓝色) */
+        .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+            border-bottom: 2px solid #3a3a3a !important;
+            color: #fff !important;
+            padding-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        /* 4. 链接颜色 (wiki.gg 蓝色) */
+        .markdown-body a { color: #59acff !important; text-decoration: none; }
+        .markdown-body a:hover { text-decoration: underline; color: #80c0ff !important; }
 
-* **🔍 Research Interests**: 
-    * Simultaneous-source Seismic Acquisition (Deblending)
-    * High-quality Seismic Imaging
-    * Sparse Transforms (Curvelet, etc.) & Deep Learning in Geophysics
+        /* 5. 表格样式优化 - 完美适配以撒维基 */
+        .markdown-body table {
+            background-color: #252525 !important;
+            border-collapse: collapse !important;
+            margin: 15px 0;
+            width: 100%;
+        }
+        .markdown-body table th, .markdown-body table td {
+            border: 1px solid #3a3a3a !important;
+            padding: 8px 12px !important;
+        }
+        .markdown-body table tr {
+            background-color: #1c1c1c !important;
+        }
+        .markdown-body table tr:nth-child(2n) {
+            background-color: #222222 !important;
+        }
 
----
+        /* 6. 图片排版与 GIF 适配 */
+        .markdown-body img { 
+            border-radius: 0 !important; 
+            max-width: 100%;
+        }
+        /* 标题内的 GIF 移除边框和背景 */
+        .markdown-body h1 img, .markdown-body h2 img, .markdown-body h3 img { 
+            border: none !important; 
+            background: transparent !important;
+            vertical-align: middle;
+        }
+        /* 顶层表格中的照片增加边框 */
+        td[align="center"] img {
+            border: 3px solid #3a3a3a !important;
+            background: #000;
+        }
 
-### 🎓 Education  <img src="isaac2.gif" height="40px">
-* **Ph.D. in Engineering (Candidate)** | Chengdu University of Technology | *2024 - Present*
-* **B.Sc. in Science** | Chengdu University of Technology | *2020 - 2024*
+        /* 7. 引用块样式 */
+        .markdown-body blockquote {
+            border-left: 4px solid #59acff !important;
+            background-color: #252525 !important;
+            color: #bbb !important;
+            padding: 10px 20px;
+        }
 
----
+        /* 移动端适配 */
+        @media (max-width: 767px) {
+            .markdown-body { padding: 15px; margin: 10px; border: none; }
+        }
+    </style>
+</head>
+<body>
+    <article id="content" class="markdown-body">Loading Wiki content...</article>
 
-### 🏆 Competitions & Honors  <img src="isaac3.gif" height="45px">
-| Contest | Project | Award |
-| :--- | :--- | :--- |
-| **3rd Dongfang Cup** | Surface Wave Noise Suppression | 🥇 National 1st Prize |
-| **2nd Dongfang Cup** | Post-Stack Structure-Preserving Filtering | 🥈 National 2nd Prize |
-| **1st Dongfang Cup** | Fault Prediction Algorithm | 🥇 National 1st Prize |
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-> **Scholarships:** Ph.D. Motivational Scholarship (Special Class), Academic Scholarship (1st Class).
+    <script>
+        if (typeof marked === 'undefined') {
+            document.getElementById('content').innerHTML = "Error: marked.js blocked.";
+        } else {
+            fetch('home.md')
+                .then(response => {
+                    if (!response.ok) throw new Error('home.md not found');
+                    return response.text();
+                })
+                .then(text => {
+                    // 渲染 Markdown
+                    document.getElementById('content').innerHTML = marked.parse(text);
+                    
+                    // 后处理：自动给所有图片添加 onerror 保护
+                    const imgs = document.querySelectorAll('img');
+                    imgs.forEach(img => {
+                        img.onerror = function() { this.style.display = 'none'; };
+                    });
 
----
-
-### 📝 Publications & Conferences  <img src="isaac4.gif" height="38px">
-#### 📄 Publications
-- **[J]** *Seismic random noise attenuation using structure-oriented 3D curvelet transform.*
-- **[J]** *Iterative deblending based on 2D-FFT with multistage median bilateral filtering.*
-- **[C]** *Self-supervised Training for Simultaneous Interpolation and Deblending of Blended Data.* 
-
-#### 🌐 Conferences
-* **IMAGE** (International Meeting for Applied Geosciences & Energy)
-* **CGU** (China Union of Geological Sciences Annual Conference)
-* **AGER** (First Frontier Forum on Earth Energy)
-
----
-
-### 🛠 Tech Stack <img src="isaac5.gif" height="50px">
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=for-the-badge&logo=mathworks&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <!-- <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> -->
-  
-</p>
-
----
-
-### 📊 GitHub Stats <img src="dake2.gif" height="38px">
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lee-zifei&show_icons=true&theme=radical&hiden_border=true" width="400" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-zifei&layout=compact&theme=radical&hiden_border=true" width="300" />
-</p>
-
----
-
-### 📫 Get in touch <img src="isaac6.gif" height="50px">
-- **Institutional Email**: `2024010196@stu.cdut.edu.cn`
-- **Personal Email**: `Curvelet_lzf@163.com`
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Lee-zifei&color=blue&style=flat-square&label=Profile+Views" alt="Profile Views" />
-</p>
+                    // 触发数学公式渲染
+                    if (window.MathJax) { MathJax.typesetPromise(); }
+                })
+                .catch(err => {
+                    document.getElementById('content').innerHTML = "Error: " + err.message;
+                });
+        }
+    </script>
+</body>
+</html>
