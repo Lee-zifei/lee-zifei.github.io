@@ -55,32 +55,33 @@
     .markdown-body a { color: #0645ad !important; text-decoration: none; }
     .markdown-body a:hover { text-decoration: underline; }
 
-    /* 5. 优化表格展示 */
+    /* 5. 浅色版表格 - 极高易读性 */
     .markdown-body table {
-        width: 100% !important; /* 确保表格占满横向空间 */
-        table-layout: auto;      /* 让浏览器根据内容自动分配宽度 */
+        border: 1px solid #a2a9b1 !important;
+        background-color: #ffffff !important;
+        color: #202122 !important;
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
     }
 
-    /* 针对竞赛表格的列宽微调 */
-    /* 第一列（Contest）：设置一个基础宽度 */
-    .markdown-body table td:first-child, 
-    .markdown-body table th:first-child {
-        min-width: 150px;
-        white-space: nowrap; /* 防止比赛名称换行 */
+    .markdown-body table th {
+        background-color: #eaecf0 !important; /* 浅灰色表头 */
+        border: 1px solid #a2a9b1 !important;
+        color: #000000 !important;
+        font-weight: bold;
+        padding: 8px !important;
     }
 
-    /* 第二列（Project）：让它占据剩下的主要空间 */
-    .markdown-body table td:nth-child(2),
-    .markdown-body table th:nth-child(2) {
-        width: auto;
+    .markdown-body table td {
+        border: 1px solid #a2a9b1 !important;
+        padding: 10px !important;
+        color: #202122 !important;
     }
 
-    /* 第三列（Award）：文字居中并缩小空间 */
-    .markdown-body table td:last-child,
-    .markdown-body table th:last-child {
-        text-align: center;
-        white-space: nowrap;
-        width: 120px;
+    /* 隔行换色：让列表更清爽 */
+    .markdown-body table tr:nth-child(2n) {
+        background-color: #f8f9fa !important;
     }
 
     /* 6. 图片处理 */
