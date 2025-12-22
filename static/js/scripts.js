@@ -1,63 +1,30 @@
-const content_dir = 'contents/'
-const config_file = 'config.yml'
-const section_names = ['home', 'awards', 'experience', 'publications'];
-
-
-window.addEventListener('DOMContentLoaded', event => {
-
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
-
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
-    });
-
-
-    // Yaml
-    fetch(content_dir + config_file)
+// 示例：scripts.js 中加载 markdown 的代码片段
+document.addEventListener('DOMContentLoaded', () => {
+    // Load config.yaml (if exists)
+    fetch('config.yaml')
         .then(response => response.text())
-        .then(text => {
-            const yml = jsyaml.load(text);
-            Object.keys(yml).forEach(key => {
-                try {
-                    document.getElementById(key).innerHTML = yml[key];
-                } catch {
-                    console.log("Unknown id and value: " + key + "," + yml[key].toString())
-                }
+        .then(yamlText => {
+            const config = jsyaml.load(yamlText);
+            document.getElementById('title').innerText = config.title;
+            document.getElementById('page-top-title').innerText = config.name + ' @ ' + config.institution;
+            document.getElementById('top-section-bg-text').innerText = config.name;
+            // ... 其他配置项
+        });
 
-            })
-        })
-        .catch(error => console.log(error));
+    // Load home.md
+    fetch('static/md/home.md') // 假设 markdown 文件放在 static/md/ 目录下
+        .then(response => response.text())
+        .then(markdownText => {
+            document.getElementById('home-md').innerHTML = marked.parse(markdownText);
+            // MathJax.typesetPromise(); // 如果需要重新渲染数学公式
+        });
 
+    // Load awards.md
+    fetch('static/md/awards.md')
+        .then(response => response.text())
+        .then(markdownText => {
+            document.getElementById('awards-md').innerHTML = marked.parse(markdownText);
+        });
 
-    // Marked
-    marked.use({ mangle: false, headerIds: false })
-    section_names.forEach((name, idx) => {
-        fetch(content_dir + name + '.md')
-            .then(response => response.text())
-            .then(markdown => {
-                const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
-            }).then(() => {
-                // MathJax
-                MathJax.typeset();
-            })
-            .catch(error => console.log(error));
-    })
-
-}); 
+    // ... 以此类推加载其他 markdown 文件
+});
