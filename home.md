@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Zifei Li (李子霏)![isaac](isaac1.gif)
+# 👋 Hi there, I'm Zifei Li (李子霏) <img src="isaac1.gif" height="38px" style="vertical-align: middle;" onerror="this.style.display='none'">
 <table>
   <tr>
     <td width="65%">
