@@ -14,7 +14,7 @@
       </p>
     </td>
     <td width="35%" align="center">
-      <img src="photo.png" width="180" style="border-radius: 50%; border: 3px solid #f1c40f;" />
+      <img src="/fig/photo.png" width="400" style="border-radius: 50%;" onerror="this.src='https://github.com/Lee-zifei.png'"/>
     </td>
   </tr>
 </table>
