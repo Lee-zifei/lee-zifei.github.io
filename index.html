@@ -51,41 +51,50 @@
     .markdown-body a { color: #a585ff !important; text-decoration: none; font-weight: bold; }
     .markdown-body a:hover { color: #d0c0ff !important; text-decoration: underline; }
 
-    /* 5. 修正：深色背景表格 + 亮色文字 */
+    /* 5. 极简黑白版表格 - 确保最高清晰度 */
     .markdown-body table {
-        border: 2px solid #3a3a3a !important;
-        /* 核心修改：确保背景是极深的灰色，而不是白色 */
-        background-color: #1a1a1a !important; 
-        color: #ffffff !important; 
+        border: 1px solid #444 !important; /* 暗灰色细边框 */
+        background-color: #000000 !important; /* 纯黑背景 */
+        color: #ffffff !important; /* 纯白文字 */
         width: 100%;
         border-collapse: collapse;
+        margin: 20px 0;
     }
 
     .markdown-body table th {
-        /* 表头背景稍亮一点点 */
-        background-color: #2a2a2a !important; 
-        border: 1px solid #3a3a3a !important;
-        color: #59acff !important; /* 经典的以撒蓝 */
+        background-color: #1a1a1a !important; /* 表头稍微亮一点点，区分内容 */
+        border: 1px solid #444 !important;
+        color: #ffffff !important;
         font-weight: bold;
+        text-align: center;
     }
 
     .markdown-body table td {
-        border: 1px solid #3a3a3a !important;
-        background-color: transparent !important; /* 跟着表格的大背景走 */
-        color: #ffffff !important; 
+        border: 1px solid #444 !important;
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        padding: 10px !important;
     }
 
-    /* 隔行换色：让列表更易读 */
-    .markdown-body table tr:nth-child(2n) {
-        background-color: #222222 !important;
-    }
-
-    /* 确保表格内的所有文字（包括加粗和链接）都是可见的 */
+    /* 强制清除所有可能干扰文字颜色的样式 */
     .markdown-body table td p, 
-    .markdown-body table td b,
+    .markdown-body table td b, 
+    .markdown-body table td strong,
     .markdown-body table td span {
         color: #ffffff !important;
+        background-color: transparent !important;
     }
+
+/* 链接保持高亮蓝色，方便点击 */
+.markdown-body table td a {
+    color: #59acff !important;
+    text-decoration: underline;
+}
+
+/* 移除隔行变色，保持纯黑统一感 */
+.markdown-body table tr {
+    background-color: #000000 !important;
+}
 
     /* 6. 特殊：给图片加个“道具展示框”感 */
     .markdown-body img { 
