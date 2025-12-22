@@ -11,14 +11,19 @@
     
 <style>
     /* 1. 浅色 Wiki 背景 - 干净的浅灰色 */
-    body { 
-        background-color: #f6f6f6; 
+body { 
+        /* 1. 先设置一个底色（这是石砖缝隙间的颜色） */
+        background-color: #f0f0f0; 
+        
+        /* 2. 调用那张“透明”的纹理图 */
         background-image: url('https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Site-background-light/revision/latest');
+        
+        /* 3. 设置平铺 */
+        background-repeat: repeat;
         background-attachment: fixed;
+        
         margin: 0;
         padding: 0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #202122;
     }
 
     /* 2. 内容主容器 - 纯白背景，带浅色边框 */
