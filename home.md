@@ -1,19 +1,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
-<div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 2.2;">
-  
+<div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 2.5;">
   <span style="font-size: 24px; color: #4b3832;">
     👋 Hello everyone! I'm Isaac, and this is my good friend 
-    <span style="border-bottom: 2px dashed #8b0000; padding: 0 4px; position: relative;">
-      Li Zifei (李子霏)
-      <span style="position: absolute; left: 50%; top: 100%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; width: max-content; z-index: 10;">
-        <svg width="20" height="20" viewBox="0 0 40 40" style="margin-top: 2px;">
-          <path d="M20 35 L20 5 M15 15 L20 5 L25 15" stroke="#8b0000" stroke-width="4" fill="transparent" />
+    <span style="display: inline-block; vertical-align: middle; position: relative;">
+        <span style="border-bottom: 2px dashed #8b0000; padding: 0 4px;">Li Zifei (李子霏)</span>
+        <svg width="200" height="60" style="position: absolute; left: 50%; top: 25px; transform: translateX(-50%); pointer-events: none;">
+            <path d="M100 40 L100 10 M95 18 L100 10 L105 18" stroke="#8b0000" stroke-width="3" fill="transparent" />
+            <text x="100" y="55" text-anchor="middle" font-family="'Permanent Marker', cursive" font-size="14" fill="#8b0000" font-weight="bold" transform="rotate(-2, 100, 55)">
+                (FOOLISH!!!!!!!)
+            </text>
         </svg>
-        <span style="font-size: 14px; color: #8b0000; font-weight: bold; background-color: rgba(255,255,255,0.8); padding: 0 4px; border-radius: 4px; margin-top: -5px;">
-          (foolish!!!!!!!)
-        </span>
-      </span>
     </span>
     's GitHub introduction. That’s what the voices in the walls keep whispering, anyway. But don't mind them! Just like my basement, this profile is full of traps, treasures, and a lot of messy code. Zifei told me it was safe here, but I’m still keeping my D6 <img src="d6.png" height="25px"> ready just in case we need to reroll some of these repositories.
   </span>
