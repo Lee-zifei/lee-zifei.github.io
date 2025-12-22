@@ -21,7 +21,7 @@
 
 ---
 
-### 🧬 About Me
+### 🧬 About Me   <img src="dake1.gif" height="38px">
 I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of Technology (CDUT)**. My research bridges the gap between signal processing and Earth sciences, focusing on making seismic data clearer and acquisition more efficient.
 
 * **🔍 Research Interests**: 
@@ -31,13 +31,13 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
 
 ---
 
-### 🎓 Education
+### 🎓 Education  <img src="isaac2.gif" height="40px">
 * **Ph.D. in Engineering (Candidate)** | Chengdu University of Technology | *2024 - Present*
 * **B.Sc. in Science** | Chengdu University of Technology | *2020 - 2024*
 
 ---
 
-### 🏆 Competitions & Honors
+### 🏆 Competitions & Honors  <img src="isaac3.gif" height="45px">
 | Contest | Project | Award |
 | :--- | :--- | :--- |
 | **3rd Dongfang Cup** | Surface Wave Noise Suppression | 🥇 National 1st Prize |
@@ -48,8 +48,8 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
 
 ---
 
-### 📝 Publications & Conferences
-#### 📄 Key Publications
+### 📝 Publications & Conferences  <img src="isaac4.gif" height="38px">
+#### 📄 Publications
 - **[J]** *Seismic random noise attenuation using structure-oriented 3D curvelet transform.*
 - **[J]** *Iterative deblending based on 2D-FFT with multistage median bilateral filtering.*
 - **[C]** *Self-supervised Training for Simultaneous Interpolation and Deblending of Blended Data.* 
@@ -61,7 +61,7 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
 
 ---
 
-### 🛠 Tech Stack
+### 🛠 Tech Stack <img src="isaac5.gif" height="50px">
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=for-the-badge&logo=mathworks&logoColor=white" />
@@ -72,7 +72,7 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats <img src="dake2.gif" height="38px">
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=Lee-zifei&show_icons=true&theme=radical&hiden_border=true" width="400" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-zifei&layout=compact&theme=radical&hiden_border=true" width="300" />
@@ -80,7 +80,7 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
 
 ---
 
-### 📫 Get in touch
+### 📫 Get in touch <img src="isaac6.gif" height="50px">
 - **Institutional Email**: `2024010196@stu.cdut.edu.cn`
 - **Personal Email**: `Curvelet_lzf@163.com`
 
