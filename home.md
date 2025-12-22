@@ -45,9 +45,10 @@
 
   <tr>
     <td colspan="2" align="center" style="padding-top: 20px;">
-      <img src="your-image1.png" height="100px" style="margin-right: 10px;" />
-      <img src="your-image2.gif" height="100px" style="margin-right: 10px;" />
-      <img src="your-image3.jpg" height="100px" />
+      <img src="cp5_csgy.png" height="200px" style="margin-right: 10px;" />
+      <img src="cp5_csgde721.png" height="100px" style="margin-right: 10px;" />
+      <img src="cp5_csgde719.png" height="100px" style="margin-right: 10px;" />
+      <img src="cp5_csgdefx6.png" height="100px" style="margin-right: 10px;" />
     </td>
   </tr>
 </table>
