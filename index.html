@@ -51,18 +51,36 @@
     .markdown-body a { color: #a585ff !important; text-decoration: none; font-weight: bold; }
     .markdown-body a:hover { color: #d0c0ff !important; text-decoration: underline; }
 
-    /* 5. 以撒风格的表格 */
+    /* 5. 以撒风格的表格 - 深度优化文字颜色 */
     .markdown-body table {
         border: 2px solid #3a3a3a !important;
         background-color: #151515 !important;
+        color: #f0f0f0 !important; /* 强制表格内文字为亮白色 */
+        width: 100%;
     }
+
     .markdown-body table th {
         background-color: #2a2a2a !important;
         border: 1px solid #3a3a3a !important;
-        color: #59acff !important;
+        color: #59acff !important; /* 表头使用以撒蓝，非常醒目 */
+        font-weight: bold;
     }
+
     .markdown-body table td {
         border: 1px solid #3a3a3a !important;
+        color: #f0f0f0 !important; /* 确保单元格文字清晰 */
+    }
+
+    /* 针对你 home.md 顶部的布局表格进行特殊处理 */
+    /* 确保 PhD Candidate 那部分的文字也是亮的 */
+    .markdown-body table td p, 
+    .markdown-body table td b {
+        color: #f0f0f0 !important;
+    }
+
+    /* 隔行换色，增加易读性 */
+    .markdown-body table tr:nth-child(2n) {
+        background-color: #1c1c1c !important;
     }
 
     /* 6. 特殊：给图片加个“道具展示框”感 */
