@@ -5,6 +5,9 @@
       <p><b>PhD Candidate @ CDUT | Department of Geophysics | <img src="DLCR+.png" height="15px">: State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation</b></p>
       <p>Focusing on Simultaneous-source seismic acquisition and high-quality seismic imaging.</p>
       <p>
+        <a href="https://github.com/Lee-zifei">
+        <img src="https://img.shields.io/badge/Lizifei-Github-brightgreen?style=flat-square&logo=google-chrome&logoColor=white" />
+        </a>
         <a href="mailto:2024010196@stu.cdut.edu.cn">
           <img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=flat-square&logo=gmail" />
         </a>
