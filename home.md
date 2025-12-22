@@ -15,7 +15,7 @@
         </span>
       </span>
     </span>
-    's GitHub introduction. That’s what the voices in the walls keep whispering, anyway. But don't mind them! Just like my basement, this profile is full of traps, treasures, and a lot of messy code. Zifei told me it was safe here, but I’m still keeping my D6 ready just in case we need to reroll some of these repositories.
+    's GitHub introduction. That’s what the voices in the walls keep whispering, anyway. But don't mind them! Just like my basement, this profile is full of traps, treasures, and a lot of messy code. Zifei told me it was safe here, but I’m still keeping my D6 <img src="d6.png" height="25px"> ready just in case we need to reroll some of these repositories.
   </span>
 </div> <img src="isaac1.gif" height="38px">
 
