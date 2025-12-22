@@ -56,7 +56,7 @@
 ---
 
 ### 🧬 About Me   <img src="dake1.gif" height="38px">
-I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of Technology (CDUT)**. My research between signal processing and Earth sciences, focusing on making seismic data clearer and acquisition more efficient.
+I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of Technology (CDUT)**. My research focuses on designing simultaneous-source seismic exploration techniques and high-quality seismic signal imaging. In the past few years, I've studied methods for separating and regularizing signals from sumul-sources. Currently, I'm attempting to integrate this with the design of observation systems to explore how pulse and controlled sources can increase the coherence difference between the effective signal and aliasing noise at the acquisition end, thereby expanding the application scope of simultaneous excitation seismic exploration techniques. Furthermore, how to achieve direct imaging of aliased data as much as possible, combining simultaneous-source data with processes such as RTM and FWI, is also one of my research directions.
 
 * **🔍 Research Interests**: 
     * Simultaneous-source Seismic Acquisition (Deblending)
