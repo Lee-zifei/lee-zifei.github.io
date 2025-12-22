@@ -10,115 +10,96 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     
 <style>
-    /* 1. 模拟以撒地牢背景 */
+    /* 1. 浅色 Wiki 背景 - 干净的浅灰色 */
     body { 
-        background-color: #0b0b0b; 
-        /* 这里的背景图是 wiki.gg 常用的平铺石砖纹理感 */
+        background-color: #f6f6f6; 
         background-image: url('https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Site-background-light/revision/latest');
         background-attachment: fixed;
         margin: 0;
         padding: 0;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #202122;
     }
 
-    /* 2. 核心容器：还原 wiki.gg 的像素质感边框 */
+    /* 2. 内容主容器 - 纯白背景，带浅色边框 */
     .markdown-body {
         box-sizing: border-box;
         min-width: 200px;
         max-width: 1000px;
         margin: 40px auto;
-        padding: 40px;
-        background-color: #1c1c1c; 
-        /* 以撒维基标志性的金色/紫色细边框 */
-        border: 2px solid #3a3a3a;
-        outline: 4px solid #1c1c1c; /* 模拟外层重影边框 */
-        box-shadow: 0 0 20px rgba(0,0,0,0.8);
-        color: #f0f0f0 !important;
+        padding: 45px;
+        background-color: #ffffff; 
+        border: 1px solid #a7d7f9; /* 经典的 Wiki 淡蓝色边框 */
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        color: #202122 !important;
     }
 
-    /* 3. 还原 Wiki 标题：带背景色的色块 */
+    /* 3. 浅色 Wiki 标题 - 蓝色底线色块 */
     .markdown-body h1, .markdown-body h2 {
-        background: linear-gradient(to right, #2a2a2a, transparent);
-        border-bottom: 2px solid #59acff !important; /* 以撒维基的蓝色分割线 */
-        padding: 5px 15px !important;
-        margin-left: -15px;
-        margin-right: -15px;
-        color: #fff !important;
-        text-shadow: 1px 1px 2px #000;
+        background: linear-gradient(to right, #f8f9fa, transparent);
+        border-bottom: 1px solid #a2a9b1 !important;
+        padding: 5px 10px !important;
+        margin-left: -10px;
+        margin-right: -10px;
+        color: #000 !important;
+        font-weight: normal;
     }
 
-    /* 4. 链接样式：亮紫色/蓝色 */
-    .markdown-body a { color: #a585ff !important; text-decoration: none; font-weight: bold; }
-    .markdown-body a:hover { color: #d0c0ff !important; text-decoration: underline; }
+    /* 4. 链接样式 - 经典的维基蓝 */
+    .markdown-body a { color: #0645ad !important; text-decoration: none; }
+    .markdown-body a:hover { text-decoration: underline; }
 
-    /* 5. 极简黑白版表格 - 确保最高清晰度 */
+    /* 5. 浅色版表格 - 极高易读性 */
     .markdown-body table {
-        border: 1px solid #444 !important; /* 暗灰色细边框 */
-        background-color:#ffffff  !important; /* 纯黑背景 */
-        color: #000000 !important; /* 纯白文字 */
+        border: 1px solid #a2a9b1 !important;
+        background-color: #ffffff !important;
+        color: #202122 !important;
         width: 100%;
         border-collapse: collapse;
         margin: 20px 0;
     }
 
     .markdown-body table th {
-        background-color: #1a1a1a !important; /* 表头稍微亮一点点，区分内容 */
-        border: 1px solid #444 !important;
-        color: #ffffff !important;
+        background-color: #eaecf0 !important; /* 浅灰色表头 */
+        border: 1px solid #a2a9b1 !important;
+        color: #000000 !important;
         font-weight: bold;
-        text-align: center;
+        padding: 8px !important;
     }
 
     .markdown-body table td {
-        border: 1px solid #444 !important;
-        background-color: #000000 !important;
-        color: #ffffff !important;
+        border: 1px solid #a2a9b1 !important;
         padding: 10px !important;
+        color: #202122 !important;
     }
 
-    /* 强制清除所有可能干扰文字颜色的样式 */
-    .markdown-body table td p, 
-    .markdown-body table td b, 
-    .markdown-body table td strong,
-    .markdown-body table td span {
-        color: #ffffff !important;
-        background-color: transparent !important;
+    /* 隔行换色：让列表更清爽 */
+    .markdown-body table tr:nth-child(2n) {
+        background-color: #f8f9fa !important;
     }
 
-/* 链接保持高亮蓝色，方便点击 */
-.markdown-body table td a {
-    color: #59acff !important;
-    text-decoration: underline;
-}
-
-/* 移除隔行变色，保持纯黑统一感 */
-.markdown-body table tr {
-    background-color: #000000 !important;
-}
-
-    /* 6. 特殊：给图片加个“道具展示框”感 */
+    /* 6. 图片处理 */
     .markdown-body img { 
-        border: 2px solid #444 !important;
-        padding: 2px;
-        background: #000;
+        border: 1px solid #ccc !important;
+        padding: 3px;
+        background: #fff;
     }
-    /* 标题 GIF 保持透明 */
     .markdown-body h1 img, .markdown-body h2 img {
         border: none !important;
         background: transparent !important;
         padding: 0;
     }
 
-    /* 7. 引用块（像游戏里的台词框） */
+    /* 7. 引用块 - 浅蓝色调 */
     .markdown-body blockquote {
-        background: #151515 !important;
-        border: 1px solid #3a3a3a !important;
-        border-left: 5px solid #a585ff !important;
-        font-style: italic;
+        background: #f8f9fa !important;
+        border-left: 5px solid #36b !important;
+        color: #444 !important;
+        padding: 10px 20px;
     }
 
     @media (max-width: 767px) {
-        .markdown-body { padding: 15px; margin: 10px; border: none; outline: none; }
+        .markdown-body { padding: 15px; margin: 0; border: none; }
     }
 </style>
 </head>
