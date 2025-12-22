@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zifei Lee | CDUT Geophysics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <style>
+        .markdown-body { box-sizing: border-box; min-width: 200px; max-width: 980px; margin: 0 auto; padding: 45px; }
+        .markdown-body img { border-radius: 0 !important; } /* 强制方形 */
+        .markdown-body h1 img { vertical-align: middle; margin-left: 10px; border: none; }
+        body { background-color: #f6f8fa; }
+    </style>
+</head>
+<body>
+    <article id="content" class="markdown-body">Loading...</article>
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script>
+        if (typeof marked === 'undefined') {
+            document.getElementById('content').innerHTML = "Error: marked.js blocked.";
+        } else {
+            // 配置 marked，允许 HTML 标签并处理图片逻辑
+            marked.setOptions({
+                headerIds: false,
+                mangle: false
+            });
+
+            fetch('home.md')
+                .then(response => {
+                    if (!response.ok) throw new Error('home.md not found');
+                    return response.text();
+                })
+                .then(text => {
+                    // 渲染内容
+                    document.getElementById('content').innerHTML = marked.parse(text);
+                    
+                    // 渲染后处理图片：确保方形并处理加载失败
+                    const imgs = document.querySelectorAll('.markdown-body img');
+                    imgs.forEach(img => {
+                        // 强制处理 onerror
+                        img.onerror = function() {
+                            console.warn("Image failed to load:", img.src);
+                            this.style.display = 'none'; // 加载失败就隐藏，不报错
+                        };
+                    });
+
+                    if (window.MathJax) { MathJax.typesetPromise(); }
+                })
+                .catch(err => {
+                    document.getElementById('content').innerHTML = "Error: " + err.message;
+                });
+        }
+    </script>
+</body>
+</html>
