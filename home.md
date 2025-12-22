@@ -1,23 +1,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
-<div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 1.5;">
+<div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 2.2;">
   
   <span style="font-size: 24px; color: #4b3832;">
-    👋 Hello stranger! I'm Isaac, and this is my good friend 
-    <span style="position: relative; display: inline-block;">
-      <span style="border-bottom: 2px dashed #8b0000; padding: 0 4px;">Li Zifei (李子霏)</span>
-      <div style="position: absolute; left: 50%; transform: translateX(-50%); top: 35px; display: flex; flex-direction: column; align-items: center; width: 120px;">
-        <svg width="30" height="25" viewBox="0 0 40 30">
-          <path d="M20 5 L20 25 M15 20 L20 25 L25 20" stroke="#8b0000" stroke-width="3" fill="transparent" />
+    👋 Hello everyone! I'm Isaac, and this is my good friend 
+    <span style="border-bottom: 2px dashed #8b0000; padding: 0 4px; position: relative;">
+      Li Zifei (李子霏)
+      <span style="position: absolute; left: 50%; top: 100%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; width: max-content; z-index: 10;">
+        <svg width="20" height="20" viewBox="0 0 40 40" style="margin-top: 2px;">
+          <path d="M20 35 L20 5 M15 15 L20 5 L25 15" stroke="#8b0000" stroke-width="4" fill="transparent" />
         </svg>
-        <span style="font-size: 14px; color: #8b0000; white-space: nowrap; transform: rotate(-3deg); font-weight: bold; background-color: rgba(255,255,255,0.6); padding: 0 2px;">
+        <span style="font-size: 14px; color: #8b0000; font-weight: bold; background-color: rgba(255,255,255,0.8); padding: 0 4px; border-radius: 4px; margin-top: -5px;">
           (foolish!!!!!!!)
         </span>
-      </div>
+      </span>
     </span>
-    's GitHub introduction.
+    's GitHub introduction. That’s what the voices in the walls keep whispering, anyway. But don't mind them! Just like my basement, this profile is full of traps, treasures, and a lot of messy code. Zifei told me it was safe here, but I’m still keeping my D6 ready just in case we need to reroll some of these repositories.
   </span>
-
 </div> <img src="isaac1.gif" height="38px">
 
 
