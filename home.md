@@ -1,18 +1,23 @@
 # 👋 Hi there, I'm Zifei Li (李子霏)
-<p align="center">
-  <img src="./fig/photo.png" width="400" style="border-radius: 50%;" />
-</p>
-<p align="left">
-  <a href="https://github.com/Lee-zifei/">
-    <img src="https://img.shields.io/badge/PhD%20Candidate-CDUT-gold?style=flat-square&logo=academia" />
-  </a>
-  <a href="mailto:2024010196@stu.cdut.edu.cn">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=flat-square&logo=gmail" />
-  </a>
-  <a href="https://github.com/Lee-zifei/">
-    <img src="https://img.shields.io/github/stars/Lee-zifei?style=flat-square&color=yellow" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="65%">
+      <p><b>PhD Candidate @ CDUT | Department of Geophysics</b></p>
+      <p>Focusing on Simultaneous-source seismic acquisition and high-quality seismic imaging.</p>
+      <p>
+        <a href="mailto:2024010196@stu.cdut.edu.cn">
+          <img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=flat-square&logo=gmail" />
+        </a>
+        <a href="https://github.com/Lee-zifei/">
+          <img src="https://img.shields.io/github/stars/Lee-zifei?style=flat-square&color=yellow" />
+        </a>
+      </p>
+    </td>
+    <td width="35%" align="center">
+      <img src="./fig/photo.png" width="180" style="border-radius: 50%; border: 3px solid #f1c40f;" />
+    </td>
+  </tr>
+</table>
 
 ---
 
