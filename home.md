@@ -1,17 +1,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
 
 <div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 2.8;">
   <span style="font-size: 24px; color: #4b3832;">
     👋 Hello everyone! I'm Isaac, and this is my good friend 
-    <span style="display: inline-block; vertical-align: middle; position: relative;">
-        <span style="border-bottom: 3px dashed #8b0000; padding: 0 4px;">Li Zifei (李子霏)</span>
-        <svg width="200" height="70" style="position: absolute; left: 50%; top: 28px; transform: translateX(-50%); pointer-events: none;">
+    <span style="display: inline-block; vertical-align: middle; position: relative; padding: 0 4px;">
+        <span style="position: relative; z-index: 2;">
+          Li Zifei <span style="font-family: 'Ma Shan Zheng', cursive; font-size: 26px;">(李子霏)</span>
+        </span>
+        <svg width="240" height="80" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); pointer-events: none; overflow: visible;">
             <g fill="none" stroke="#8b0000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M101 45 C 98 35, 102 20, 100 8" />
-                <path d="M92 18 C 94 15, 97 10, 100 8" />
-                <path d="M108 17 C 105 14, 102 11, 100 8" />
-            </g>
-            <text x="100" y="62" text-anchor="middle" font-family="'Permanent Marker', cursive" font-size="14" fill="#8b0000" font-weight="bold" transform="rotate(-2, 100, 62)">
+                <path d="M15 38 C 40 40, 80 35, 120 38 C 160 41, 200 36, 225 39" />
+                <path d="M121 65 C 118 55, 122 45, 120 38" /> <path d="M112 50 C 114 47, 117 44, 120 42" /> <path d="M128 49 C 125 46, 122 44, 120 42" /> </g>
+            <text x="120" y="78" text-anchor="middle" font-family="'Permanent Marker', cursive" font-size="14" fill="#8b0000" font-weight="bold" transform="rotate(-2, 120, 78)">
                 (FOOLISH!!!!!!!)
             </text>
         </svg>
@@ -45,10 +46,10 @@
 
   <tr>
     <td colspan="2" align="center" style="padding-top: 20px;">
-      <img src="cp5_csgy.png" height="200px" style="margin-right: 1px;" />
-      <img src="cp5_csgde721.png" height="200px" style="margin-right: 1px;" />
-      <img src="cp5_csgde719.png" height="200px" style="margin-right: 1px;" />
-      <img src="cp5_csgdefx6.png" height="200px" style="margin-right: 1px;" />
+      <img src="cp5_csgy.png" height="185px" style="margin-right: 1px;" />
+      <img src="cp5_csgde721.png" height="185px" style="margin-right: 1px;" />
+      <img src="cp5_csgde719.png" height="185px" style="margin-right: 1px;" />
+      <img src="cp5_csgdefx6.png" height="185px" style="margin-right: 1px;" />
     </td>
   </tr>
 </table>
