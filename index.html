@@ -9,92 +9,87 @@
     
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     
-    <style>
-        /* 1. 全局 Wiki 背景 (wiki.gg 风格) */
-        body { 
-            background-color: #0f0f0f; 
-            background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), 
-                              url('https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Site-background-light/revision/latest');
-            background-attachment: fixed;
-            background-size: cover;
-            margin: 0;
-            padding: 0;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
+<style>
+    /* 1. 模拟以撒地牢背景 */
+    body { 
+        background-color: #0b0b0b; 
+        /* 这里的背景图是 wiki.gg 常用的平铺石砖纹理感 */
+        background-image: url('https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Site-background-light/revision/latest');
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 
-        /* 2. 内容主容器 */
-        .markdown-body {
-            box-sizing: border-box;
-            min-width: 200px;
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 45px;
-            background-color: #1c1c1c; /* 维基灰色容器 */
-            border: 1px solid #3a3a3a;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            color: #f0f0f0 !important;
-        }
+    /* 2. 核心容器：还原 wiki.gg 的像素质感边框 */
+    .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 40px;
+        background-color: #1c1c1c; 
+        /* 以撒维基标志性的金色/紫色细边框 */
+        border: 2px solid #3a3a3a;
+        outline: 4px solid #1c1c1c; /* 模拟外层重影边框 */
+        box-shadow: 0 0 20px rgba(0,0,0,0.8);
+        color: #f0f0f0 !important;
+    }
 
-        /* 3. 标题与横线 (wiki.gg 蓝色) */
-        .markdown-body h1, .markdown-body h2, .markdown-body h3 {
-            border-bottom: 2px solid #3a3a3a !important;
-            color: #fff !important;
-            padding-bottom: 5px;
-            font-weight: bold;
-        }
-        
-        /* 4. 链接颜色 (wiki.gg 蓝色) */
-        .markdown-body a { color: #59acff !important; text-decoration: none; }
-        .markdown-body a:hover { text-decoration: underline; color: #80c0ff !important; }
+    /* 3. 还原 Wiki 标题：带背景色的色块 */
+    .markdown-body h1, .markdown-body h2 {
+        background: linear-gradient(to right, #2a2a2a, transparent);
+        border-bottom: 2px solid #59acff !important; /* 以撒维基的蓝色分割线 */
+        padding: 5px 15px !important;
+        margin-left: -15px;
+        margin-right: -15px;
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #000;
+    }
 
-        /* 5. 表格样式优化 - 完美适配以撒维基 */
-        .markdown-body table {
-            background-color: #252525 !important;
-            border-collapse: collapse !important;
-            margin: 15px 0;
-            width: 100%;
-        }
-        .markdown-body table th, .markdown-body table td {
-            border: 1px solid #3a3a3a !important;
-            padding: 8px 12px !important;
-        }
-        .markdown-body table tr {
-            background-color: #1c1c1c !important;
-        }
-        .markdown-body table tr:nth-child(2n) {
-            background-color: #222222 !important;
-        }
+    /* 4. 链接样式：亮紫色/蓝色 */
+    .markdown-body a { color: #a585ff !important; text-decoration: none; font-weight: bold; }
+    .markdown-body a:hover { color: #d0c0ff !important; text-decoration: underline; }
 
-        /* 6. 图片排版与 GIF 适配 */
-        .markdown-body img { 
-            border-radius: 0 !important; 
-            max-width: 100%;
-        }
-        /* 标题内的 GIF 移除边框和背景 */
-        .markdown-body h1 img, .markdown-body h2 img, .markdown-body h3 img { 
-            border: none !important; 
-            background: transparent !important;
-            vertical-align: middle;
-        }
-        /* 顶层表格中的照片增加边框 */
-        td[align="center"] img {
-            border: 3px solid #3a3a3a !important;
-            background: #000;
-        }
+    /* 5. 以撒风格的表格 */
+    .markdown-body table {
+        border: 2px solid #3a3a3a !important;
+        background-color: #151515 !important;
+    }
+    .markdown-body table th {
+        background-color: #2a2a2a !important;
+        border: 1px solid #3a3a3a !important;
+        color: #59acff !important;
+    }
+    .markdown-body table td {
+        border: 1px solid #3a3a3a !important;
+    }
 
-        /* 7. 引用块样式 */
-        .markdown-body blockquote {
-            border-left: 4px solid #59acff !important;
-            background-color: #252525 !important;
-            color: #bbb !important;
-            padding: 10px 20px;
-        }
+    /* 6. 特殊：给图片加个“道具展示框”感 */
+    .markdown-body img { 
+        border: 2px solid #444 !important;
+        padding: 2px;
+        background: #000;
+    }
+    /* 标题 GIF 保持透明 */
+    .markdown-body h1 img, .markdown-body h2 img {
+        border: none !important;
+        background: transparent !important;
+        padding: 0;
+    }
 
-        /* 移动端适配 */
-        @media (max-width: 767px) {
-            .markdown-body { padding: 15px; margin: 10px; border: none; }
-        }
-    </style>
+    /* 7. 引用块（像游戏里的台词框） */
+    .markdown-body blockquote {
+        background: #151515 !important;
+        border: 1px solid #3a3a3a !important;
+        border-left: 5px solid #a585ff !important;
+        font-style: italic;
+    }
+
+    @media (max-width: 767px) {
+        .markdown-body { padding: 15px; margin: 10px; border: none; outline: none; }
+    }
+</style>
 </head>
 <body>
     <article id="content" class="markdown-body">Loading Wiki content...</article>
