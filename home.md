@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Zifei Li (李子霏)<img src="gif/isaac1.gif" height="35px">
+# 👋 Hi there, I'm Zifei Li (李子霏)<img src="isaac1.gif" height="35px">
 <table>
   <tr>
     <td width="65%">
@@ -14,7 +14,7 @@
       </p>
     </td>
     <td width="35%" align="center">
-      <img src="fig/photo.png" width="200" />
+      <img src="photo.png" width="200" />
     </td>
   </tr>
 </table>
