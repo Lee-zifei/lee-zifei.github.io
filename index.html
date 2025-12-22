@@ -43,14 +43,14 @@
                 // 渲染 Markdown 到页面
                 document.getElementById('content').innerHTML = marked.parse(text);
                 
-                // // 渲染后处理：手动修复图片加载并触发数学公式渲染
-                // const images = document.querySelectorAll('img');
-                // images.forEach(img => {
-                //     // 如果路径中包含 photo.png，确保它是方形
-                //     // if(img.src.includes('photo1.png')) {
-                //         // img.style.borderRadius = "0";
-                //     // }
-                // });
+                // 渲染后处理：手动修复图片加载并触发数学公式渲染
+                const images = document.querySelectorAll('img');
+                images.forEach(img => {
+                    // 如果路径中包含 photo.png，确保它是方形
+                    if(img.src.includes('photo.png')) {
+                        img.style.borderRadius = "0";
+                    }
+                });
 
                 if (window.MathJax) {
                     MathJax.typesetPromise();
