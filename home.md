@@ -59,6 +59,9 @@
       </div>
       <p style="margin-top: 20px;">
         <a href="https://github.com/Lee-zifei"><img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white" height="20"/></a>
+        <a href="https://www.researchgate.net/profile/Zifei-Li-7?ev=hdr_xprf">
+    <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" height="20"/>
+  </a>
         <a href="mailto:2024010196@stu.cdut.edu.cn"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="20"/></a>
         <img src="https://img.shields.io/github/stars/Lee-zifei?style=for-the-badge&color=important" height="20"/>
       </p>
@@ -81,7 +84,13 @@
     </td>
   </tr>
 </table>
+---
 
+### 📊 GitHub Stats <img src="dake2.gif" height="38px">
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Lee-zifei&show_icons=true&theme=radical&hiden_border=true" width="400" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-zifei&layout=compact&theme=radical&hiden_border=true" width="300" />
+</p>
 ---
 
 ### 🧬 About Me   <img src="dake1.gif" height="38px">
@@ -133,13 +142,7 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
   
 </p>
 
----
 
-### 📊 GitHub Stats <img src="dake2.gif" height="38px">
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lee-zifei&show_icons=true&theme=radical&hiden_border=true" width="400" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-zifei&layout=compact&theme=radical&hiden_border=true" width="300" />
-</p>
 
 ---
 
