@@ -87,12 +87,15 @@
 ---
 
 ### 📊 GitHub Stats <img src="dake2.gif" height="38px">
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lee-zifei&show_icons=true&theme=radical&hiden_border=true" width="400" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-zifei&layout=compact&theme=radical&hiden_border=true" width="300" />
-</p>
----
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start;">
+  <img src="https://github-readme-stats.vercel.app/api?username=Lee-zifei&show_icons=true&theme=radical&hide_border=true" height="170px" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lee-zifei&theme=radical&hide_border=true" height="170px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-zifei&layout=compact&theme=radical&hide_border=true" height="170px" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lee-zifei&theme=radical&hide_border=true&area=true" height="170px" />
+</div>
+
+<br>
 ### 🧬 About Me   <img src="dake1.gif" height="38px">
 I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of Technology (CDUT)**. My research focuses on designing simultaneous-source seismic exploration techniques and high-quality seismic signal imaging. In the past few years, I've studied methods for separating and regularizing signals from sumul-sources. Currently, I'm attempting to integrate this with the design of observation systems to explore how pulse and controlled sources can increase the coherence difference between the effective signal and aliasing noise at the acquisition end, thereby expanding the application scope of simultaneous excitation seismic exploration techniques. Furthermore, how to achieve direct imaging of aliased data as much as possible, combining simultaneous-source data with processes such as RTM and FWI, is also one of my research directions.
 
