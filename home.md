@@ -64,9 +64,10 @@
       </p>
     </td>
     <td width="35%" align="center" style="vertical-align: top;">
-      <div style="position: relative; display: inline-block; margin-top: 10px;">
-        <img src="photo1.png" width="190" style="border-radius: 8px; border: 1px solid #d0d7de; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" />
-      </div>
+  <div style="position: relative; display: inline-block; margin-top: 10px;">
+      <img src="photo2.jpg" width="190" style="border-radius: 8px; border: 1px solid #d0d7de; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" />
+      <img src="photo1.png" width="190" style="border-radius: 8px; border: 1px solid #d0d7de; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" />
+    </div>
     </td>
   </tr>
   <tr>
