@@ -21,35 +21,62 @@
   </span>
 </div> <img src="isaac1.gif" height="38px">
 
-
-<table>
+<table width="100%" style="border-collapse: collapse; border: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
   <tr>
-    <td width="65%">
-      <p><b>PhD Candidate @ CDUT | Department of Geophysics | <img src="DLCR+.png" height="15px">: State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation</b></p>
-      <p>Focusing on Simultaneous-source seismic acquisition and high-quality seismic imaging.</p>
-      <p>
-        <a href="https://github.com/Lee-zifei">
-        <img src="https://img.shields.io/badge/Lizifei-Github-brightgreen?style=flat-square&logo=google-chrome&logoColor=white" />
-        </a>
-        <a href="mailto:2024010196@stu.cdut.edu.cn">
-          <img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=flat-square&logo=gmail" />
-        </a>
-        <a href="https://github.com/Lee-zifei/">
-          <img src="https://img.shields.io/github/stars/Lee-zifei?style=flat-square&color=yellow" />
-        </a>
+    <td width="65%" style="vertical-align: top; padding-right: 25px;">
+      <h2 style="margin: 0 0 10px 0; border: none; color: #24292e; font-size: 24px;">Zifei Lee (李子霏)</h2>
+      <p style="margin: 5px 0; color: #57606a; font-size: 15px;">
+        <i class="bi bi-mortarboard-fill"></i> <b>PhD Candidate in Engineering</b><br>
+        Chengdu University of Technology | Department of Geophysics
+      </p>
+      <hr style="border: 0; border-top: 1px solid #eaecef; margin: 15px 0;">
+      <table style="width: 100%; font-size: 14px; line-height: 1.8; color: #24292e;">
+        <tr>
+          <td width="100px" style="color: #57606a;"><b>Birthday</b></td>
+          <td>2001.09.21</td>
+        </tr>
+        <tr>
+          <td style="color: #57606a;"><b>University</b></td>
+          <td>Chengdu University of Technology (CDUT)</td>
+        </tr>
+        <tr>
+          <td style="color: #57606a;"><b>Lab </b></td>
+          <td>State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation</td>
+        </tr>
+        <tr>
+          <td style="color: #57606a;"><b>Email</b></td>
+          <td><a href="mailto:Curvelet_lzf@163.com" style="color: #0969da; text-decoration: none;">Curvelet_lzf@163.com</a></td>
+        </tr>
+        <tr>
+          <td style="color: #57606a; vertical-align: top;"><b>Address</b></td>
+          <td style="white-space: nowrap;">No. 1, East 3rd Road, Erxianqiao, Chenghua District, Chengdu, China</td>
+        </tr>
+      </table>
+      <div style="margin-top: 15px; padding: 10px; background-color: #f6f8fa; border-radius: 6px; border-left: 4px solid #8b0000;">
+        <span style="font-size: 14px; color: #24292e;">
+          <b>Research Focus:</b> Simultaneous-source seismic acquisition and high-quality seismic imaging.
+        </span>
+      </div>
+      <p style="margin-top: 20px;">
+        <a href="https://github.com/Lee-zifei"><img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white" height="20"/></a>
+        <a href="mailto:2024010196@stu.cdut.edu.cn"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="20"/></a>
+        <img src="https://img.shields.io/github/stars/Lee-zifei?style=for-the-badge&color=important" height="20"/>
       </p>
     </td>
-    <td width="35%" align="center">
-      <img src="photo1.png" width="200" />
+    <td width="35%" align="center" style="vertical-align: top;">
+      <div style="position: relative; display: inline-block; margin-top: 10px;">
+        <img src="photo1.png" width="190" style="border-radius: 8px; border: 1px solid #d0d7de; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" />
+      </div>
     </td>
   </tr>
-
   <tr>
-    <td colspan="2" align="center" style="padding-top: 20px;">
-      <img src="cp5_csgy.png" height="185px" style="margin-right: 1px;" />
-      <img src="cp5_csgde721.png" height="185px" style="margin-right: 1px;" />
-      <img src="cp5_csgde719.png" height="185px" style="margin-right: 1px;" />
-      <img src="cp5_csgdefx6.png" height="185px" style="margin-right: 1px;" />
+    <td colspan="2" align="center" style="padding-top: 35px;">
+      <div style="display: flex; justify-content: center; gap: 8px;">
+        <img src="cp5_csgy.png" height="180px" style="border: 1px solid #d0d7de; border-radius: 4px;" />
+        <img src="cp5_csgde721.png" height="180px" style="border: 1px solid #d0d7de; border-radius: 4px;" />
+        <img src="cp5_csgde719.png" height="180px" style="border: 1px solid #d0d7de; border-radius: 4px;" />
+        <img src="cp5_csgdefx6.png" height="180px" style="border: 1px solid #d0d7de; border-radius: 4px;" />
+      </div>
     </td>
   </tr>
 </table>
