@@ -24,7 +24,7 @@
 <table width="100%" style="border-collapse: collapse; border: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
   <tr>
     <td width="65%" style="vertical-align: top; padding-right: 25px;">
-      <h2 style="margin: 0 0 10px 0; border: none; color: #24292e; font-size: 24px;">Zifei Lee (李子霏)</h2>
+      <h2 style="margin: 0 0 10px 0; border: none; color: #24292e; font-size: 24px;">Zifei Li (李子霏)</h2>
       <p style="margin: 5px 0; color: #57606a; font-size: 15px;">
         <i class="bi bi-mortarboard-fill"></i> <b>PhD Candidate in Engineering</b><br>
         Chengdu University of Technology | Department of Geophysics
