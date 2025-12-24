@@ -22,7 +22,7 @@
 </div> <img src="isaac1.gif" height="38px">
 
 <table width="100%" style="border-collapse: collapse; border: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background-color: #ffffff;">
-  <tr>
+      <tr style="background-color: #ffffff">
     <td width="65%" style="vertical-align: top; padding-right: 25px;">
       <h2 style="margin: 0 0 10px 0; border: none; color: #24292e; font-size: 24px;">Zifei Li (李子霏)</h2>
       <p style="margin: 5px 0; color: #57606a; font-size: 15px;">
