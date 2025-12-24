@@ -21,27 +21,27 @@
   </span>
 </div> <img src="isaac1.gif" height="38px">
 
-<table width="100%" style="border-collapse: collapse; border: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+<table width="100%" style="border-collapse: collapse; border: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background-color: #ffffff;">
   <tr>
     <td width="65%" style="vertical-align: top; padding-right: 25px;">
       <h2 style="margin: 0 0 10px 0; border: none; color: #24292e; font-size: 24px;">Zifei Li (李子霏)</h2>
       <p style="margin: 5px 0; color: #57606a; font-size: 15px;">
-        <i class="bi bi-mortarboard-fill"></i> <b>PhD Candidate in Engineering</b><br>
+        <i class="bi bi-mortarboard-fill"></i> <b style="color: #24292e;">PhD Candidate in Engineering</b><br>
         Chengdu University of Technology | Department of Geophysics
       </p>
       <hr style="border: 0; border-top: 1px solid #eaecef; margin: 15px 0;">
       <table style="width: 100%; font-size: 14px; line-height: 1.8; color: #24292e;">
         <tr>
           <td width="100px" style="color: #57606a;"><b>Birthday</b></td>
-          <td>2001.09.21</td>
+          <td style="color: #24292e;">2001.09.21</td>
         </tr>
         <tr>
           <td style="color: #57606a;"><b>University</b></td>
-          <td>Chengdu University of Technology (CDUT)</td>
+          <td style="color: #24292e;">Chengdu University of Technology (CDUT)</td>
         </tr>
         <tr>
           <td style="color: #57606a;"><b>Lab </b></td>
-          <td>State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation</td>
+          <td style="color: #24292e;">State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation</td>
         </tr>
         <tr>
           <td style="color: #57606a;"><b>Email</b></td>
@@ -49,7 +49,7 @@
         </tr>
         <tr>
           <td style="color: #57606a; vertical-align: top;"><b>Address</b></td>
-          <td style="white-space: nowrap;">No. 1, East 3rd Road, Erxianqiao, Chenghua District, Chengdu, China</td>
+          <td style="white-space: nowrap; color: #24292e;">No. 1, East 3rd Road, Erxianqiao, Chenghua District, Chengdu, China</td>
         </tr>
       </table>
       <div style="margin-top: 15px; padding: 10px; background-color: #f6f8fa; border-radius: 6px; border-left: 4px solid #8b0000;">
@@ -60,21 +60,21 @@
       <p style="margin-top: 20px;">
         <a href="https://github.com/Lee-zifei"><img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white" height="20"/></a>
         <a href="https://www.researchgate.net/profile/Zifei-Li-7?ev=hdr_xprf">
-    <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" height="20"/>
-  </a>
+          <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" height="20"/>
+        </a>
         <a href="mailto:2024010196@stu.cdut.edu.cn"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="20"/></a>
         <img src="https://img.shields.io/github/stars/Lee-zifei?style=for-the-badge&color=important" height="20"/>
       </p>
     </td>
-    <td width="35%" align="center" style="vertical-align: top;">
-  <div style="position: relative; display: inline-block; margin-top: 10px;">
-      <img src="photo2.jpg" width="190" style="border-radius: 8px; border: 1px solid #d0d7de; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" />
-      <img src="photo1.png" width="190" style="border-radius: 8px; border: 1px solid #d0d7de; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" />
-    </div>
+    <td width="35%" align="center" style="vertical-align: top; background-color: #ffffff;">
+      <div style="display: flex; flex-direction: column; gap: 10px; align-items: center; margin-top: 10px;">
+          <img src="photo2.jpg" width="180" style="border-radius: 8px; border: 1px solid #d0d7de; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" />
+          <img src="photo1.png" width="180" style="border-radius: 8px; border: 1px solid #d0d7de; box-shadow: 0 4px 12px rgba(0,0,0,0.05);" />
+      </div>
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center" style="padding-top: 35px;">
+    <td colspan="2" align="center" style="padding-top: 35px; background-color: #ffffff;">
       <div style="display: flex; justify-content: center; gap: 8px;">
         <img src="cp5_csgy.png" height="180px" style="border: 1px solid #d0d7de; border-radius: 4px;" />
         <img src="cp5_csgde721.png" height="180px" style="border: 1px solid #d0d7de; border-radius: 4px;" />
@@ -114,14 +114,42 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
 
 ---
 
-### 🏆 Competitions & Honors  <img src="isaac3.gif" height="45px">
-| Contest | Project | Award |
-| :--- | :--- | :--- |
-| **3rd Dongfang Cup** | Surface Wave Noise Suppression | 🥇 National 1st Prize |
-| **2nd Dongfang Cup** | Post-Stack Structure-Preserving Filtering | 🥈 National 2nd Prize |
-| **1st Dongfang Cup** | Fault Prediction Algorithm | 🥇 National 1st Prize |
+<!-- <div style="background-color: #ffffff; padding: 15px; border-radius: 8px; border: 1px solid #dfe2e5; color: #24292e;"> -->
+  <h3 style="margin-top: 0; border: none; color: #24292e;">
+    🏆 Competitions & Honors <img src="isaac3.gif" height="35px" style="vertical-align: middle;">
+  </h3>
+  
+  <table width="100%" style="border-collapse: collapse; text-align: left; font-size: 14px; color: #24292e;">
+    <thead>
+      <tr style="background-color: #f6f8fa; border-bottom: 2px solid #dfe2e5;">
+        <th style="padding: 10px; border: 1px solid #dfe2e5;">Contest</th>
+        <th style="padding: 10px; border: 1px solid #dfe2e5;">Project</th>
+        <th style="padding: 10px; border: 1px solid #dfe2e5;">Award</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #dfe2e5;"><b>3rd Dongfang Cup</b></td>
+        <td style="padding: 10px; border: 1px solid #dfe2e5;">Surface Wave Noise Suppression</td>
+        <td style="padding: 10px; border: 1px solid #dfe2e5;">🥇 National 1st Prize</td>
+      </tr>
+      <tr style="background-color: #fafbfc;">
+        <td style="padding: 10px; border: 1px solid #dfe2e5;"><b>2nd Dongfang Cup</b></td>
+        <td style="padding: 10px; border: 1px solid #dfe2e5;">Post-Stack Structure-Preserving Filtering</td>
+        <td style="padding: 10px; border: 1px solid #dfe2e5;">🥈 National 2nd Prize</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #dfe2e5;"><b>1st Dongfang Cup</b></td>
+        <td style="padding: 10px; border: 1px solid #dfe2e5;">Fault Prediction Algorithm</td>
+        <td style="padding: 10px; border: 1px solid #dfe2e5;">🥇 National 1st Prize</td>
+      </tr>
+    </tbody>
+  </table>
 
-> **Scholarships:** Ph.D. Motivational Scholarship (Special Class), Academic Scholarship (1st Class).
+  <blockquote style="margin: 15px 0 0 0; padding: 10px; background: #fff9c4; border-left: 5px solid #fbc02d; color: #4b3832; font-size: 13px;">
+    <b>Scholarships:</b> Ph.D. Motivational Scholarship (Special Class), Academic Scholarship (1st Class).
+  </blockquote>
+<!-- </div> -->
 
 ---
 
