@@ -31,23 +31,23 @@
       </p>
       <hr style="border: 0; border-top: 1px solid #eaecef; margin: 15px 0;">
       <table style="width: 100%; font-size: 14px; line-height: 1.8; color: #24292e;">
-        <tr>
+      <tr style="background-color: #ffffff">
           <td width="100px" style="color: #57606a;"><b>Birthday</b></td>
           <td style="color: #24292e;">2001.09.21</td>
         </tr>
-        <tr>
+      <tr style="background-color: #ffffff">
           <td style="color: #57606a;"><b>University</b></td>
           <td style="color: #24292e;">Chengdu University of Technology (CDUT)</td>
         </tr>
-        <tr>
+      <tr style="background-color: #ffffff">
           <td style="color: #57606a;"><b>Lab </b></td>
           <td style="color: #24292e;">State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation</td>
         </tr>
-        <tr>
+      <tr style="background-color: #ffffff">
           <td style="color: #57606a;"><b>Email</b></td>
           <td><a href="mailto:Curvelet_lzf@163.com" style="color: #0969da; text-decoration: none;">Curvelet_lzf@163.com</a></td>
         </tr>
-        <tr>
+      <tr style="background-color: #ffffff">
           <td style="color: #57606a; vertical-align: top;"><b>Address</b></td>
           <td style="white-space: nowrap; color: #24292e;">No. 1, East 3rd Road, Erxianqiao, Chenghua District, Chengdu, China</td>
         </tr>
@@ -121,24 +121,24 @@ I am a Ph.D. candidate at the **Department of Geophysics, Chengdu University of 
   
   <table width="100%" style="border-collapse: collapse; text-align: left; font-size: 14px; color: #24292e;">
     <thead>
-      <tr style="background-color: #f6f8fa; border-bottom: 2px solid #dfe2e5;">
+      <tr style="background-color: #ffffff">
         <th style="padding: 10px; border: 1px solid #dfe2e5;">Contest</th>
         <th style="padding: 10px; border: 1px solid #dfe2e5;">Project</th>
         <th style="padding: 10px; border: 1px solid #dfe2e5;">Award</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr style="background-color: #ffffff">
         <td style="padding: 10px; border: 1px solid #dfe2e5;"><b>3rd Dongfang Cup</b></td>
         <td style="padding: 10px; border: 1px solid #dfe2e5;">Surface Wave Noise Suppression</td>
         <td style="padding: 10px; border: 1px solid #dfe2e5;">🥇 National 1st Prize</td>
       </tr>
-      <tr style="background-color: #fafbfc;">
+      <tr style="background-color: #ffffff">
         <td style="padding: 10px; border: 1px solid #dfe2e5;"><b>2nd Dongfang Cup</b></td>
         <td style="padding: 10px; border: 1px solid #dfe2e5;">Post-Stack Structure-Preserving Filtering</td>
         <td style="padding: 10px; border: 1px solid #dfe2e5;">🥈 National 2nd Prize</td>
       </tr>
-      <tr>
+      <tr style="background-color: #ffffff">
         <td style="padding: 10px; border: 1px solid #dfe2e5;"><b>1st Dongfang Cup</b></td>
         <td style="padding: 10px; border: 1px solid #dfe2e5;">Fault Prediction Algorithm</td>
         <td style="padding: 10px; border: 1px solid #dfe2e5;">🥇 National 1st Prize</td>
