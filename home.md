@@ -1,6 +1,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
-
+<div style="background-color: #fdfdfd; color: #24292e; padding: 25px; border-radius: 12px; border: 1px solid #e1e4e8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; line-height: 1.6;">
 <div style="font-family: 'Permanent Marker', cursive; text-transform: uppercase; line-height: 2.8;">
   <span style="font-size: 24px; color: #4b3832;">
     👋 Hello everyone! I'm Isaac, and this is my good friend 
