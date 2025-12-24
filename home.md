@@ -90,10 +90,9 @@
 ### 📊 GitHub Stats <img src="dake2.gif" height="38px">
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start;">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lee-zifei&show_icons=true&theme=radical&hide_border=true" height="120px" />
-  <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lee-zifei&theme=radical&hide_border=true" height="170px" /> -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-zifei&layout=compact&theme=radical&hide_border=true" height="120px" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lee-zifei&theme=radical&hide_border=true&area=true" height="120px" />
+  <!-- <img src="https://stats.justsong.cn/api?username=Lee-zifei&show_icons=true&theme=radical&hide_border=true" height="120px" /> -->
+  <img src="https://github-readme-stats-api.vercel.app/api/top-langs/?username=Lee-zifei&layout=compact&theme=radical&hide_border=true" height="120px" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lee-zifei&theme=radical&hide_border=true&area=true&bg_color=1a1b27" height="120px" />
 </div>
 
 <br>
